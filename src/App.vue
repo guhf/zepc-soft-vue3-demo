@@ -9,6 +9,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/composition">一. 响应式编程和组合式API</RouterLink>
         <RouterLink to="/template">二. Vue模板应用</RouterLink>
         <RouterLink to="/component">三. Vue组件系统 - 基础组件</RouterLink>
+        <RouterLink to="/property">四. Vue组件系统 - 属性和方法</RouterLink>
       </div>
     </div>
   </header>
