@@ -18,10 +18,12 @@ export interface Props {
   showFooter?: boolean | number | string | null | undefined
 }
 
+// 定义props
 const props = withDefaults(defineProps<Props>(), {
   title: '提示',
 });
 
+// 定义事件
 const emits = defineEmits<{
   (e: "submit", val: any): number,
   (e: "confirm", val: any): void,

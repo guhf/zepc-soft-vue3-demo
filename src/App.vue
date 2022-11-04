@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/template">二. Vue模板应用</RouterLink>
         <RouterLink to="/component">三. Vue组件系统 - 基础组件</RouterLink>
         <RouterLink to="/property">四. Vue组件系统 - 属性和方法</RouterLink>
+        <RouterLink to="/advance">五. Vue组件系统 - 组件进阶</RouterLink>
       </div>
     </div>
   </header>

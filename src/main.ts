@@ -15,5 +15,15 @@ app.use(router)
 
 app.component('Upload', Upload)
 
+// 全局警告
+// app.config.warnHandler = (msg, vm, trace) => {
+
+// }
+
+// 全局错误
+app.config.errorHandler = (err, vm, info) => {
+
+}
+
 
 app.mount('#app')
